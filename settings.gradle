@@ -6,9 +6,5 @@ dependencyResolutionManagement {
         jcenter() // Warning: this repository is going to shut down soon
     }
 }
-<<<<<<< HEAD
-rootProject.name = "MyApp_Oder"
-=======
-rootProject.name = "Giaodien"
->>>>>>> 3f9151d2c73a4c9a60c89cef04aed0eb63d82b39
+rootProject.name = "11"
 include ':app'

@@ -3,64 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-<<<<<<< HEAD
-        <entry key="..\:/DevPrograms/Android/Android Studio Project/MyApp_Oder/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2703125" />
-        <entry key="..\:/DevPrograms/Android/Android Studio Project/MyApp_Oder/app/src/main/res/drawable/add.xml" value="0.22291666666666668" />
-        <entry key="..\:/DevPrograms/Android/Android Studio Project/MyApp_Oder/app/src/main/res/drawable/btn_gio.xml" value="0.2703125" />
-        <entry key="..\:/DevPrograms/Android/Android Studio Project/MyApp_Oder/app/src/main/res/drawable/circle.xml" value="0.14635416666666667" />
-        <entry key="..\:/DevPrograms/Android/Android Studio Project/MyApp_Oder/app/src/main/res/drawable/circle_boder1.xml" value="0.2703125" />
-        <entry key="..\:/DevPrograms/Android/Android Studio Project/MyApp_Oder/app/src/main/res/drawable/circle_light.xml" value="0.22291666666666668" />
-        <entry key="..\:/DevPrograms/Android/Android Studio Project/MyApp_Oder/app/src/main/res/drawable/circle_logo.xml" value="0.2703125" />
-        <entry key="..\:/DevPrograms/Android/Android Studio Project/MyApp_Oder/app/src/main/res/drawable/circle_noneboder.xml" value="0.22291666666666668" />
-        <entry key="..\:/DevPrograms/Android/Android Studio Project/MyApp_Oder/app/src/main/res/drawable/circle_sale.xml" value="0.2703125" />
-        <entry key="..\:/DevPrograms/Android/Android Studio Project/MyApp_Oder/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.2703125" />
-        <entry key="..\:/DevPrograms/Android/Android Studio Project/MyApp_Oder/app/src/main/res/drawable/ic_baseline_add_circle_24.xml" value="0.2703125" />
-        <entry key="..\:/DevPrograms/Android/Android Studio Project/MyApp_Oder/app/src/main/res/drawable/ic_baseline_chevron_right_24.xml" value="0.22291666666666668" />
-        <entry key="..\:/DevPrograms/Android/Android Studio Project/MyApp_Oder/app/src/main/res/drawable/ic_baseline_circle_24.xml" value="0.22291666666666668" />
-        <entry key="..\:/DevPrograms/Android/Android Studio Project/MyApp_Oder/app/src/main/res/drawable/ic_baseline_horizontal_rule_24.xml" value="0.2703125" />
-        <entry key="..\:/DevPrograms/Android/Android Studio Project/MyApp_Oder/app/src/main/res/drawable/ic_baseline_keyboard_arrow_left_24.xml" value="0.22291666666666668" />
-        <entry key="..\:/DevPrograms/Android/Android Studio Project/MyApp_Oder/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.22291666666666668" />
-        <entry key="..\:/DevPrograms/Android/Android Studio Project/MyApp_Oder/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2703125" />
-        <entry key="..\:/DevPrograms/Android/Android Studio Project/MyApp_Oder/app/src/main/res/drawable/line.xml" value="0.2703125" />
-        <entry key="..\:/DevPrograms/Android/Android Studio Project/MyApp_Oder/app/src/main/res/drawable/none_line.xml" value="0.2703125" />
-        <entry key="..\:/DevPrograms/Android/Android Studio Project/MyApp_Oder/app/src/main/res/drawable/radius.xml" value="0.22291666666666668" />
-        <entry key="..\:/DevPrograms/Android/Android Studio Project/MyApp_Oder/app/src/main/res/drawable/radius_brown.xml" value="0.22291666666666668" />
-        <entry key="..\:/DevPrograms/Android/Android Studio Project/MyApp_Oder/app/src/main/res/drawable/radius_btn_gio.xml" value="0.2703125" />
-        <entry key="..\:/DevPrograms/Android/Android Studio Project/MyApp_Oder/app/src/main/res/drawable/radius_noneboder.xml" value="0.22291666666666668" />
-        <entry key="..\:/DevPrograms/Android/Android Studio Project/MyApp_Oder/app/src/main/res/drawable/retangle_boder.xml" value="0.22291666666666668" />
-        <entry key="..\:/DevPrograms/Android/Android Studio Project/MyApp_Oder/app/src/main/res/drawable/retangle_brownlight.xml" value="0.22291666666666668" />
-        <entry key="..\:/DevPrograms/Android/Android Studio Project/MyApp_Oder/app/src/main/res/drawable/retangle_menu.xml" value="0.22291666666666668" />
-        <entry key="..\:/DevPrograms/Android/Android Studio Project/MyApp_Oder/app/src/main/res/drawable/string.xml" value="0.14635416666666667" />
-        <entry key="..\:/DevPrograms/Android/Android Studio Project/MyApp_Oder/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/DevPrograms/Android/Android Studio Project/MyApp_Oder/app/src/main/res/layout/activity_main10.xml" value="0.22146739130434784" />
-        <entry key="..\:/DevPrograms/Android/Android Studio Project/MyApp_Oder/app/src/main/res/layout/activity_main2.xml" value="0.2391304347826087" />
-        <entry key="..\:/DevPrograms/Android/Android Studio Project/MyApp_Oder/app/src/main/res/layout/activity_main3.xml" value="0.2346014492753623" />
-        <entry key="..\:/DevPrograms/Android/Android Studio Project/MyApp_Oder/app/src/main/res/layout/activity_main4.xml" value="0.20677083333333332" />
-        <entry key="..\:/DevPrograms/Android/Android Studio Project/MyApp_Oder/app/src/main/res/layout/activity_main5.xml" value="0.176" />
-        <entry key="..\:/DevPrograms/Android/Android Studio Project/MyApp_Oder/app/src/main/res/layout/activity_main6.xml" value="0.22644927536231885" />
-        <entry key="..\:/DevPrograms/Android/Android Studio Project/MyApp_Oder/app/src/main/res/layout/circle.xml" value="0.25416666666666665" />
-        <entry key="..\:/DevPrograms/Android/Android Studio Project/MyApp_Oder/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.22291666666666668" />
-        <entry key="..\:/DevPrograms/Android/Android Studio Project/MyApp_Oder/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.22291666666666668" />
-=======
-        <entry key="..\:/Giaodien/app/src/main/res/drawable/canhan.xml" value="0.2203125" />
-        <entry key="..\:/Giaodien/app/src/main/res/drawable/donhang.xml" value="0.2203125" />
-        <entry key="..\:/Giaodien/app/src/main/res/drawable/hinhtron.xml" value="0.2203125" />
-        <entry key="..\:/Giaodien/app/src/main/res/drawable/hinhvuong.xml" value="0.2203125" />
-        <entry key="..\:/Giaodien/app/src/main/res/drawable/home.xml" value="0.2203125" />
-        <entry key="..\:/Giaodien/app/src/main/res/drawable/khung_nd.xml" value="0.2203125" />
-        <entry key="..\:/Giaodien/app/src/main/res/drawable/khung_ten.xml" value="0.2203125" />
-        <entry key="..\:/Giaodien/app/src/main/res/drawable/khungavata.xml" value="0.2203125" />
-        <entry key="..\:/Giaodien/app/src/main/res/drawable/khungchunhat.xml" value="0.2203125" />
-        <entry key="..\:/Giaodien/app/src/main/res/drawable/khungvien.xml" value="0.2203125" />
-        <entry key="..\:/Giaodien/app/src/main/res/drawable/person.xml" value="0.2203125" />
-        <entry key="..\:/Giaodien/app/src/main/res/drawable/quaylai.xml" value="0.2203125" />
-        <entry key="..\:/Giaodien/app/src/main/res/drawable/tichdiem.xml" value="0.2203125" />
-        <entry key="..\:/Giaodien/app/src/main/res/layout/actitivy_thongtincanhan.xml" value="0.25" />
-        <entry key="..\:/Giaodien/app/src/main/res/layout/activity_hoso.xml" value="0.2" />
-        <entry key="..\:/Giaodien/app/src/main/res/layout/activity_lichsugd.xml" value="0.20416666666666666" />
-        <entry key="..\:/Giaodien/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
-        <entry key="..\:/Giaodien/app/src/main/res/layout/activity_phieuuudai.xml" value="0.22" />
->>>>>>> 3f9151d2c73a4c9a60c89cef04aed0eb63d82b39
+        <entry key="..\:/Users/tranl/App ban hang/GDien_11/app/src/main/res/drawable/bgimage_15.xml" value="0.18796296296296297" />
+        <entry key="..\:/Users/tranl/App ban hang/GDien_11/app/src/main/res/drawable/botron_button.xml" value="0.19814814814814816" />
+        <entry key="..\:/Users/tranl/App ban hang/GDien_11/app/src/main/res/drawable/botron_sp.xml" value="0.19814814814814816" />
+        <entry key="..\:/Users/tranl/App ban hang/GDien_11/app/src/main/res/drawable/but_h12.xml" value="0.1125" />
+        <entry key="..\:/Users/tranl/App ban hang/GDien_11/app/src/main/res/drawable/button_color.xml" value="0.1125" />
+        <entry key="..\:/Users/tranl/App ban hang/GDien_11/app/src/main/res/drawable/butvien11.xml" value="0.14907407407407408" />
+        <entry key="..\:/Users/tranl/App ban hang/GDien_11/app/src/main/res/drawable/cong.xml" value="0.19814814814814816" />
+        <entry key="..\:/Users/tranl/App ban hang/GDien_11/app/src/main/res/drawable/doimaubut14.xml" value="0.1125" />
+        <entry key="..\:/Users/tranl/App ban hang/GDien_11/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1125" />
+        <entry key="..\:/Users/tranl/App ban hang/GDien_11/app/src/main/res/layout/activity_h12.xml" value="0.1" />
+        <entry key="..\:/Users/tranl/App ban hang/GDien_11/app/src/main/res/layout/activity_main.xml" value="0.17" />
+        <entry key="..\:/Users/tranl/App ban hang/GDien_11/app/src/main/res/layout/hinh_12.xml" value="0.12" />
+        <entry key="..\:/Users/tranl/App ban hang/GDien_11/app/src/main/res/layout/hinh_13.xml" value="0.18" />
+        <entry key="..\:/Users/tranl/App ban hang/GDien_11/app/src/main/res/layout/hinh_14.xml" value="0.2" />
+        <entry key="..\:/Users/tranl/App ban hang/GDien_11/app/src/main/res/layout/hinh_15.xml" value="0.17" />
       </map>
     </option>
   </component>
