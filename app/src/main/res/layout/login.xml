@@ -3,12 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< HEAD
-    android:background="@android:color/holo_orange_light"
-    android:paddingBottom="10dp">
-=======
     android:background="@android:color/holo_orange_light">
->>>>>>> fe0b935324d12caffcb2efad49c1737a0c715d21
 
     <View
         android:layout_width="400dp"
@@ -57,34 +52,14 @@
             android:textStyle="bold" />
 
         <EditText
-<<<<<<< HEAD
-            android:id="@+id/user"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_marginTop="120dp"
-            android:layout_marginBottom="15dp"
-=======
             android:id="@+id/editname"
             android:layout_width="wrap_content"
             android:layout_height="46dp"
             android:layout_marginLeft="50dp"
             android:layout_marginTop="70dp"
->>>>>>> fe0b935324d12caffcb2efad49c1737a0c715d21
             android:background="@drawable/boder"
             android:ems="10"
             android:inputType="textPersonName"
-<<<<<<< HEAD
-            android:paddingLeft="20dp"
-            android:textColor="@color/black"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
-        <EditText
-            android:id="@+id/password"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_marginBottom="10dp"
-=======
             android:text="user name" />
 
         <TextView
@@ -103,57 +78,9 @@
             android:layout_height="48dp"
             android:layout_marginLeft="50dp"
             android:layout_marginTop="155dp"
->>>>>>> fe0b935324d12caffcb2efad49c1737a0c715d21
             android:background="@drawable/boder"
             android:ems="10"
             android:inputType="textPersonName"
-<<<<<<< HEAD
-            android:paddingLeft="20dp"
-            android:textColor="@color/black"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
-            <TextView
-                android:id="@+id/forgot"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_marginBottom="15dp"
-                android:text="Quên Mật Khẩu?"
-                android:textColor="@color/red"
-                android:textSize="18sp" />
-        </RelativeLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginBottom="6dp"
-            android:orientation="horizontal">
-
-            <Button
-                android:id="@+id/button"
-                android:layout_width="110dp"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="30dp"
-                android:background="@drawable/button"
-                android:text="Đăng Nhập"
-                android:textColor="@color/white"
-                android:textStyle="bold" />
-
-            <Button
-                android:id="@+id/button2"
-                android:layout_width="110dp"
-                android:layout_height="wrap_content"
-                android:background="@drawable/button"
-                android:text="Đăng Ký"
-                android:textColor="@color/white"
-                android:textStyle="bold" />
-=======
             android:text="password" />
 
         <TextView
@@ -165,7 +92,6 @@
             android:text="Số Điện Thoại"
             android:textSize="19sp"
             android:textStyle="bold" />
->>>>>>> fe0b935324d12caffcb2efad49c1737a0c715d21
 
         <EditText
             android:id="@+id/editsdt"
@@ -194,19 +120,11 @@
             android:orientation="vertical">
 
             <ImageView
-<<<<<<< HEAD
-                android:id="@+id/imageView4"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:layout_marginRight="30dp"
-                app:srcCompat="@drawable/fb_icon" />
-=======
                 android:id="@+id/imageView12"
                 android:layout_width="108dp"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="80dp"
                 app:srcCompat="@drawable/fb" />
->>>>>>> fe0b935324d12caffcb2efad49c1737a0c715d21
 
             <ImageView
                 android:id="@+id/imageView13"
