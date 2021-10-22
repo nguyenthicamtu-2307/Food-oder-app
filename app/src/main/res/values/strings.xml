@@ -1,3 +1,7 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">MyApp_Oder</string>
+=======
+    <string name="app_name">Giaodien</string>
+>>>>>>> 3f9151d2c73a4c9a60c89cef04aed0eb63d82b39
 </resources>

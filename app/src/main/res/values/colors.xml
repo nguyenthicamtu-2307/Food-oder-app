@@ -7,6 +7,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+<<<<<<< HEAD
     <color name="nen">#FFBD59</color>
     <color name="mauchu">#793825</color>
     <color name="mautrove">#FDF3BB</color>
@@ -19,4 +20,6 @@
     <color name="circle_noneboder">#ECEDDA</color>
     <color name="nenmenu">#FBBC05</color>
     <color name="menu">#FFA87A</color>
+=======
+>>>>>>> 3f9151d2c73a4c9a60c89cef04aed0eb63d82b39
 </resources>
