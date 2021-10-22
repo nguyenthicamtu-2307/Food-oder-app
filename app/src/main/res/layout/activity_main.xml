@@ -4,628 +4,189 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <RelativeLayout
-        android:id="@+id/header"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:background="#ffa87a"
-        android:gravity="center">
+    <com.example.giaodien.custom.blackjacktextview
+        android:id="@+id/textView2"
+        android:layout_width="340dp"
+        android:layout_height="350dp"
+        android:layout_marginHorizontal="80dp"
+        android:background="@color/gray"
+        android:paddingHorizontal="10dp"
+        android:paddingTop="15dp"
+        android:text="Quán Họ Nguyễn "
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="60sp" />
 
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Mục đã chọn"
-            android:textColor="@color/black"
-            android:textSize="30dp"
-            android:textStyle="bold" />
-
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:id="@+id/footer"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="356dp"
+        android:layout_height="83dp"
+        android:layout_below="@+id/textView2"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:background="#ffa87a">
-
-        <LinearLayout
-            android:id="@+id/Tongtien"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="10dp"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Tổng sản phẩm: "
-                android:textSize="20dp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="190.000đ "
-                android:textSize="20dp"
-                android:textStyle="bold" />
-        </LinearLayout>
-
-
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/Tongtien"
-            android:layout_marginTop="10dp"
-            android:layout_centerHorizontal="true">
-
-            <Button
-                android:id="@+id/h11.1"
-                android:layout_width="200dp"
-                android:layout_height="50dp"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="2.5dp"
-                android:layout_marginBottom="5dp"
-                android:background="@drawable/butvien11"
-                android:textColor="@color/white" />
-
-            <Button
-                android:id="@+id/h11"
-                android:layout_width="193dp"
-                android:layout_height="45dp"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
-                android:background="@drawable/botron_button"
-                android:text=">>  Đi đến Giỏ hàng"
-                android:textColor="@color/white"
-                android:textSize="15dp"
-                android:textStyle="bold" />
-
-        </RelativeLayout>
-
-    </RelativeLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_above="@+id/footer"
-        android:layout_below="@+id/header"
-        android:background="#ffbd59"
-        android:orientation="vertical">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="10dp"
-            android:background="@drawable/botron_sp"
-            android:orientation="horizontal">
-
-            <ImageView
-
-                android:layout_width="68dp"
-                android:layout_height="wrap_content"
-                android:scaleType="fitStart"
-                android:src="@drawable/cof" />
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                tools:ignore="DuplicateIds">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="Cafe Đen"
-                    android:textSize="20dp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:text="20.000đ"
-                    android:textSize="15dp"
-                    android:textStyle="bold" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="70dp"
-                android:layout_marginTop="20dp"
-                android:gravity="center">
-
-                <ImageButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@color/white"
-                    android:src="@drawable/cong"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:text="1"
-                    android:textSize="25dp"
-                    android:textStyle="bold" />
-
-                <ImageButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginBottom="8dp"
-                    android:background="@color/white"
-                    android:src="@drawable/ic_baseline_minimize_24"
-                    android:textStyle="bold" />
-            </LinearLayout>
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="10dp"
-            android:background="@drawable/botron_sp"
-            android:orientation="horizontal">
-
-            <ImageView
-
-                android:layout_width="68dp"
-                android:layout_height="wrap_content"
-                android:scaleType="fitStart"
-                android:src="@drawable/cof" />
-
-            <LinearLayout
-
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="Cafe Đen"
-                    android:textSize="20dp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:text="20.000đ"
-                    android:textSize="15dp"
-                    android:textStyle="bold" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="70dp"
-                android:layout_marginTop="20dp"
-                android:gravity="center">
-
-                <ImageButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@color/white"
-                    android:src="@drawable/cong"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:text="1"
-                    android:textSize="25dp"
-                    android:textStyle="bold" />
-
-                <ImageButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginBottom="8dp"
-                    android:background="@color/white"
-                    android:src="@drawable/ic_baseline_minimize_24"
-                    android:textStyle="bold" />
-            </LinearLayout>
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="10dp"
-            android:background="@drawable/botron_sp"
-            android:orientation="horizontal">
-
-            <ImageView
-
-                android:layout_width="68dp"
-                android:layout_height="wrap_content"
-                android:scaleType="fitStart"
-                android:src="@drawable/cof" />
-
-            <LinearLayout
-
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="Cafe Đen"
-                    android:textSize="20dp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:text="20.000đ"
-                    android:textSize="15dp"
-                    android:textStyle="bold" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="70dp"
-                android:layout_marginTop="20dp"
-                android:gravity="center">
-
-                <ImageButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@color/white"
-                    android:src="@drawable/cong"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:text="1"
-                    android:textSize="25dp"
-                    android:textStyle="bold" />
-
-                <ImageButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginBottom="8dp"
-                    android:background="@color/white"
-                    android:src="@drawable/ic_baseline_minimize_24"
-                    android:textStyle="bold" />
-            </LinearLayout>
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="10dp"
-            android:background="@drawable/botron_sp"
-            android:orientation="horizontal">
-
-            <ImageView
-
-                android:layout_width="68dp"
-                android:layout_height="wrap_content"
-                android:scaleType="fitStart"
-                android:src="@drawable/cof" />
-
-            <LinearLayout
-
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="Cafe Đen"
-                    android:textSize="20dp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:text="20.000đ"
-                    android:textSize="15dp"
-                    android:textStyle="bold" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="70dp"
-                android:layout_marginTop="20dp"
-                android:gravity="center">
-
-                <ImageButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@color/white"
-                    android:src="@drawable/cong"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:text="1"
-                    android:textSize="25dp"
-                    android:textStyle="bold" />
-
-                <ImageButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginBottom="8dp"
-                    android:background="@color/white"
-                    android:src="@drawable/ic_baseline_minimize_24"
-                    android:textStyle="bold" />
-            </LinearLayout>
-
-
-        </LinearLayout>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:text="Bánh"
-            android:textSize="50dp"
-            android:textStyle="bold" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="10dp"
-            android:background="@drawable/botron_sp"
-            android:orientation="horizontal">
-
-            <ImageView
-
-                android:layout_width="68dp"
-                android:layout_height="wrap_content"
-                android:scaleType="fitStart"
-                android:src="@drawable/cof" />
-
-            <LinearLayout
-
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="Cafe Đen"
-                    android:textSize="20dp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:text="20.000đ"
-                    android:textSize="15dp"
-                    android:textStyle="bold" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="70dp"
-                android:layout_marginTop="20dp"
-                android:gravity="center">
-
-                <ImageButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@color/white"
-                    android:src="@drawable/cong"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:text="1"
-                    android:textSize="25dp"
-                    android:textStyle="bold" />
-
-                <ImageButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginBottom="8dp"
-                    android:background="@color/white"
-                    android:src="@drawable/ic_baseline_minimize_24"
-                    android:textStyle="bold" />
-            </LinearLayout>
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="10dp"
-            android:background="@drawable/botron_sp"
-            android:orientation="horizontal">
-
-            <ImageView
-
-                android:layout_width="68dp"
-                android:layout_height="wrap_content"
-                android:scaleType="fitStart"
-                android:src="@drawable/cof" />
-
-            <LinearLayout
-
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="Cafe Đen"
-                    android:textSize="20dp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:text="20.000đ"
-                    android:textSize="15dp"
-                    android:textStyle="bold" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="70dp"
-                android:layout_marginTop="20dp"
-                android:gravity="center">
-
-                <ImageButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@color/white"
-                    android:src="@drawable/cong"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:text="1"
-                    android:textSize="25dp"
-                    android:textStyle="bold" />
-
-                <ImageButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginBottom="8dp"
-                    android:background="@color/white"
-                    android:src="@drawable/ic_baseline_minimize_24"
-                    android:textStyle="bold" />
-            </LinearLayout>
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="10dp"
-            android:background="@drawable/botron_sp"
-            android:orientation="horizontal">
-
-            <ImageView
-
-                android:layout_width="68dp"
-                android:layout_height="wrap_content"
-                android:scaleType="fitStart"
-                android:src="@drawable/cof" />
-
-            <LinearLayout
-
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="Cafe Đen"
-                    android:textSize="20dp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:text="20.000đ"
-                    android:textSize="15dp"
-                    android:textStyle="bold" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="70dp"
-                android:layout_marginTop="20dp"
-                android:gravity="center">
-
-                <ImageButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@color/white"
-                    android:src="@drawable/cong"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:text="1"
-                    android:textSize="25dp"
-                    android:textStyle="bold" />
-
-                <ImageButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginBottom="8dp"
-                    android:background="@color/white"
-                    android:src="@drawable/ic_baseline_minimize_24"
-                    android:textStyle="bold" />
-            </LinearLayout>
-
-
-        </LinearLayout>
-
-
-    </LinearLayout>
+        android:layout_marginTop="166dp"
+        android:layout_marginBottom="108dp"
+        android:text="Get Special Prices For Ordering Through Our App"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+
+
+
+    <ImageView
+        android:id="@+id/login"
+        android:layout_width="107dp"
+        android:layout_height="148dp"
+        android:layout_below="@+id/imageView8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-6dp"
+        app:srcCompat="@drawable/ic_arrow_down" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="49dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginLeft="50dp"
+
+        android:layout_marginTop="-90dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="40dp"
+        app:srcCompat="@drawable/fb_icon" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="75dp"
+        android:layout_height="49dp"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="-68dp"
+        app:srcCompat="@drawable/ins_icon" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="83dp"
+        android:layout_height="48dp"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_marginStart="85dp"
+        android:layout_marginEnd="155dp"
+        android:layout_marginBottom="-339dp"
+        app:srcCompat="@drawable/zalo_icon" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="267dp"
+        android:layout_height="266dp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="-84dp"
+        android:rotation="-29"
+        app:srcCompat="@drawable/copy_822038102" />
+
+
+
+
+    <ImageView
+        android:id="@+id/chuyen"
+        android:layout_width="60dp"
+        android:layout_height="63dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="174dp"
+        android:layout_marginTop="222dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginBottom="446dp"
+        app:srcCompat="@drawable/ic_arrow_down" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="267dp"
+        android:layout_height="259dp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginStart="-270dp"
+        android:layout_marginTop="-90dp"
+        android:layout_toEndOf="@+id/textView2"
+        android:rotation="12"
+        app:srcCompat="@drawable/copy_857807268" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="289dp"
+        android:layout_height="259dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="-81dp"
+        app:srcCompat="@drawable/copy_28094653" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="85dp"
+        android:layout_height="71dp"
+        android:layout_alignEnd="@+id/imageView3"
+
+        android:layout_marginTop="620dp"
+        android:layout_marginEnd="-105dp"
+        android:layout_marginBottom="-10dp"
+        android:text="|"
+        android:textColor="#0C0C0C"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="-90dp"
+        android:text="abc@gmail.com"
+        android:textColor="#0B0909"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="-147dp"
+        android:layout_toStartOf="@+id/textView3"
+        android:text="+ 123 - 456 - 7890"
+        android:textColor="#171414"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="52dp"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="345dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="688dp"
+        android:background="@color/pink"
+        android:text="skip"
+        android:textColor="#fff" />
 
 </RelativeLayout>
+
+

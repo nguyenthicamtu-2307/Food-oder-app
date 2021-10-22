@@ -3,21 +3,36 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/tranl/App ban hang/GDien_11/app/src/main/res/drawable/bgimage_15.xml" value="0.18796296296296297" />
-        <entry key="..\:/Users/tranl/App ban hang/GDien_11/app/src/main/res/drawable/botron_button.xml" value="0.19814814814814816" />
-        <entry key="..\:/Users/tranl/App ban hang/GDien_11/app/src/main/res/drawable/botron_sp.xml" value="0.19814814814814816" />
-        <entry key="..\:/Users/tranl/App ban hang/GDien_11/app/src/main/res/drawable/but_h12.xml" value="0.1125" />
-        <entry key="..\:/Users/tranl/App ban hang/GDien_11/app/src/main/res/drawable/button_color.xml" value="0.1125" />
-        <entry key="..\:/Users/tranl/App ban hang/GDien_11/app/src/main/res/drawable/butvien11.xml" value="0.14907407407407408" />
-        <entry key="..\:/Users/tranl/App ban hang/GDien_11/app/src/main/res/drawable/cong.xml" value="0.19814814814814816" />
-        <entry key="..\:/Users/tranl/App ban hang/GDien_11/app/src/main/res/drawable/doimaubut14.xml" value="0.1125" />
-        <entry key="..\:/Users/tranl/App ban hang/GDien_11/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1125" />
-        <entry key="..\:/Users/tranl/App ban hang/GDien_11/app/src/main/res/layout/activity_h12.xml" value="0.1" />
-        <entry key="..\:/Users/tranl/App ban hang/GDien_11/app/src/main/res/layout/activity_main.xml" value="0.17" />
-        <entry key="..\:/Users/tranl/App ban hang/GDien_11/app/src/main/res/layout/hinh_12.xml" value="0.12" />
-        <entry key="..\:/Users/tranl/App ban hang/GDien_11/app/src/main/res/layout/hinh_13.xml" value="0.18" />
-        <entry key="..\:/Users/tranl/App ban hang/GDien_11/app/src/main/res/layout/hinh_14.xml" value="0.2" />
-        <entry key="..\:/Users/tranl/App ban hang/GDien_11/app/src/main/res/layout/hinh_15.xml" value="0.17" />
+        <entry key="..\:/Android/App/app/src/main/res/drawable/botron_sp.xml" value="0.2203125" />
+        <entry key="..\:/Android/App/app/src/main/res/drawable/icon.xml" value="0.2203125" />
+        <entry key="..\:/Android/App/app/src/main/res/font/font.xml" value="0.234375" />
+        <entry key="..\:/Android/App/app/src/main/res/layout/activity_h12.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/App/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Android/App/app/src/main/res/layout/fragment_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/App/app/src/main/res/layout/fragment_login2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/App/app/src/main/res/layout/hinh_12.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/App/app/src/main/res/layout/hinh_13.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/App/app/src/main/res/layout/hinh_14.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/App/app/src/main/res/layout/hinh_15.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/App/app/src/main/res/layout/history.xml" value="0.17753623188405798" />
+        <entry key="..\:/Android/App/app/src/main/res/layout/list_contact.xml" value="0.17753623188405798" />
+        <entry key="..\:/Android/App/app/src/main/res/layout/login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/App/app/src/main/res/layout/order.xml" value="0.25" />
+        <entry key="..\:/Android/App/app/src/main/res/layout/trangchu.xml" value="0.20416666666666666" />
+        <entry key="..\:/HK121/androi/team_TDH_app_oder_do_an/giaodien/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/HK121/androi/team_TDH_app_oder_do_an/giaodien/app/src/main/res/drawable/bg_img.xml" value="0.1" />
+        <entry key="..\:/HK121/androi/team_TDH_app_oder_do_an/giaodien/app/src/main/res/drawable/boder.xml" value="0.1" />
+        <entry key="..\:/HK121/androi/team_TDH_app_oder_do_an/giaodien/app/src/main/res/drawable/button.xml" value="0.1" />
+        <entry key="..\:/HK121/androi/team_TDH_app_oder_do_an/giaodien/app/src/main/res/drawable/ic_cloudy.xml" value="0.1" />
+        <entry key="..\:/HK121/androi/team_TDH_app_oder_do_an/giaodien/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/HK121/androi/team_TDH_app_oder_do_an/giaodien/app/src/main/res/drawable/icon.xml" value="0.1" />
+        <entry key="..\:/HK121/androi/team_TDH_app_oder_do_an/giaodien/app/src/main/res/drawable/tritangle.xml" value="0.1537037037037037" />
+        <entry key="..\:/HK121/androi/team_TDH_app_oder_do_an/giaodien/app/src/main/res/font/font.xml" value="0.1" />
+        <entry key="..\:/HK121/androi/team_TDH_app_oder_do_an/giaodien/app/src/main/res/layout/activity_main.xml" value="0.14666666666666667" />
+        <entry key="..\:/HK121/androi/team_TDH_app_oder_do_an/giaodien/app/src/main/res/layout/backgroud.xml" value="0.1381340579710145" />
+        <entry key="..\:/HK121/androi/team_TDH_app_oder_do_an/giaodien/app/src/main/res/layout/fragment_login.xml" value="0.1" />
+        <entry key="..\:/HK121/androi/team_TDH_app_oder_do_an/giaodien/app/src/main/res/layout/login.xml" value="0.16666666666666666" />
+        <entry key="..\:/HK121/androi/team_TDH_app_oder_do_an/giaodien/app/src/main/res/layout/trangchu.xml" value="0.22" />
       </map>
     </option>
   </component>

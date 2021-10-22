@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/vang">
 
     <LinearLayout
         android:id="@+id/heder12"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/teal_200"
+        android:layout_height="60dp"
+        android:background="@color/pink"
+        android:gravity="center"
         android:orientation="horizontal">
 
         <Button
@@ -19,7 +21,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="#F6BDAC"
-            android:gravity="center"
             android:text="Xóa Hết"
             android:textColor="@color/red"
             android:textSize="20dp" />
@@ -32,82 +33,40 @@
             android:textSize="25dp" />
 
         <Button
-            android:layout_width="45dp"
-            android:layout_height="wrap_content"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:layout_marginLeft="75dp"
             android:background="@drawable/clear" />
     </LinearLayout>
 
+
+
     <LinearLayout
-        android:id="@+id/footer12"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:background="@color/teal_200"
-        android:gravity="center"
-        android:orientation="horizontal">
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_marginRight="120dp"
-            android:orientation="vertical">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Tổng cộng: "
-                android:textSize="20dp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                android:text="190.000đ "
-                android:textSize="20dp"
-                android:textStyle="bold" />
-        </LinearLayout>
-
-
-        <Button
-            android:id="@+id/but12"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:backgroundTint="#b22222"
-            android:text="Đăt Hàng"
-            android:textSize="15dp"
-            android:textStyle="bold" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
         android:layout_above="@+id/footer12"
         android:layout_below="@+id/heder12"
-        android:background="@color/teal_700"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="10dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
             android:background="@drawable/botron_sp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
 
             <ImageView
-
                 android:layout_width="68dp"
                 android:layout_height="wrap_content"
-                android:scaleType="fitStart"
+                android:layout_marginRight="10dp"
                 android:src="@drawable/cof" />
 
             <LinearLayout
-
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
@@ -123,65 +82,102 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
                     android:text="20.000đ"
-                    android:textSize="15dp"
+                    android:textSize="20dp"
                     android:textStyle="bold" />
             </LinearLayout>
 
-            <LinearLayout
+            <RelativeLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="70dp"
-                android:layout_marginTop="20dp"
-                android:gravity="center">
+                android:layout_height="wrap_content">
 
-                <ImageButton
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@color/white"
-                    android:src="@drawable/cong"
-                    android:textStyle="bold" />
+                    android:layout_alignParentRight="true"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
 
-                <TextView
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:src="@drawable/ic_baseline_minimize_24"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:text="1"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:src="@drawable/cong"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:text="1"
-                    android:textSize="25dp"
-                    android:textStyle="bold" />
+                    android:layout_alignParentRight="true"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
 
-                <ImageButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginBottom="8dp"
-                    android:background="@color/white"
-                    android:src="@drawable/ic_baseline_minimize_24"
-                    android:textStyle="bold" />
-            </LinearLayout>
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:src="@drawable/ic_baseline_minimize_24"
+                        android:textStyle="bold" />
 
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:text="1"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
 
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:src="@drawable/cong"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </RelativeLayout>
         </LinearLayout>
-
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="10dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
             android:background="@drawable/botron_sp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:paddingRight="20dp">
 
             <ImageView
-
                 android:layout_width="68dp"
                 android:layout_height="wrap_content"
-                android:scaleType="fitStart"
+                android:layout_marginRight="10dp"
                 android:src="@drawable/cof" />
 
             <LinearLayout
-
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
@@ -197,46 +193,136 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
                     android:text="20.000đ"
-                    android:textSize="15dp"
+                    android:textSize="20dp"
                     android:textStyle="bold" />
             </LinearLayout>
 
-            <LinearLayout
+            <RelativeLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="70dp"
-                android:layout_marginTop="20dp"
-                android:gravity="center">
+                android:layout_height="wrap_content">
 
-                <ImageButton
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@color/white"
-                    android:src="@drawable/cong"
-                    android:textStyle="bold" />
+                    android:layout_alignParentRight="true"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
 
-                <TextView
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:src="@drawable/ic_baseline_minimize_24"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:text="1"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:src="@drawable/cong"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:text="1"
-                    android:textSize="25dp"
-                    android:textStyle="bold" />
+                    android:layout_alignParentRight="true"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
 
-                <ImageButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginBottom="8dp"
-                    android:background="@color/white"
-                    android:src="@drawable/ic_baseline_minimize_24"
-                    android:textStyle="bold" />
-            </LinearLayout>
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:src="@drawable/ic_baseline_minimize_24"
+                        android:textStyle="bold" />
 
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:text="1"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
 
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:src="@drawable/cong"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </RelativeLayout>
         </LinearLayout>
 
     </LinearLayout>
-</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/footer12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/teal_200"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="135dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="120dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tổng cộng: "
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="190.000đ "
+                    android:textColor="#ED1C1C"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/but12"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#b22222"
+                android:paddingHorizontal="15dp"
+                android:text="Đăt Hàng"
+                android:textColor="#fff"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
