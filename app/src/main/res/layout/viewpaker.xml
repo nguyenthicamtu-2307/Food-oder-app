@@ -7,7 +7,8 @@
         android:id="@+id/viewper"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@+id/menubar"/>
+        android:layout_above="@+id/menubar"
+       />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/menubar"
@@ -15,8 +16,8 @@
         android:layout_height="90dp"
         android:layout_alignParentBottom="true"
         android:background="@color/pink"
-        app:itemTextColor="@color/color_bar"
         app:itemIconTint="@color/color_bar"
-        app:menu="@menu/menu_bar"
-        app:labelVisibilityMode="labeled"/>
+        app:itemTextColor="@color/color_bar"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/menu_bar" />
 </RelativeLayout>
