@@ -3,7 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Android/Food-oder-app/app/src/main/res/layout/newactivity.xml" value="0.17916666666666667" />
+        <entry key="..\:/Android/FoodApp/FoodOrderApp/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Android/FoodApp/FoodOrderApp/app/src/main/res/layout/activity_order_succeess.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/FoodApp/FoodOrderApp/app/src/main/res/layout/activity_place_your_order.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/FoodApp/FoodOrderApp/app/src/main/res/layout/activity_restaurant_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/FoodApp/FoodOrderApp/app/src/main/res/layout/activity_splash.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/FoodApp/FoodOrderApp/app/src/main/res/layout/menu_recycler_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/FoodApp/FoodOrderApp/app/src/main/res/layout/place_order_recycler_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/FoodApp/FoodOrderApp/app/src/main/res/layout/recycler_row.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>
